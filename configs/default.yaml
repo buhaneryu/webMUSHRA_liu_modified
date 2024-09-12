@@ -34,8 +34,7 @@ pages:
             createAnchor70: false
             stimuli:
                 C1: configs/resources/audio/mono_c1.wav
-                C2: configs/resources/audio/mono_c2.wav
-                C3: configs/resources/audio/mono_c3.wav          
+                C4: configs/resources/audio/test.wav
           - type: mushra
             id: trial_random_2
             name: MUSHRA - Random 1
@@ -45,9 +44,7 @@ pages:
             createAnchor35: false
             createAnchor70: false
             stimuli:
-                C1: configs/resources/audio/mono_c1.wav
-                C2: configs/resources/audio/mono_c2.wav
-                C3: configs/resources/audio/mono_c3.wav          
+                C4: configs/resources/audio/test.wav
     - type: finish
       name: Thank you
       content: Thank you for attending!
