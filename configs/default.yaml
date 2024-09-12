@@ -46,7 +46,13 @@ pages:
                 C4: configs/resources/audio/t1.wav
     - type: finish
       name: Thank you
-      content: Thank you for attending!
+      content: |
+        Thank you for attending!
+        <br/><br/>
+        Your eMail: {{email}}  <!-- 添加这行代码，显示eMail -->
       showResults: true
       writeResults: true
-
+      questionnaire:
+          - type: text
+            label: eMail
+            name: email
