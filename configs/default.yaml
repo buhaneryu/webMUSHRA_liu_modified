@@ -21,9 +21,6 @@ pages:
       createAnchor35: true
       createAnchor70: true
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
           C4: configs/resources/audio/test.wav
     - 
           - random
