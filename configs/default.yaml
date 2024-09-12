@@ -21,7 +21,7 @@ pages:
       createAnchor35: true
       createAnchor70: true
       stimuli:
-          C4: configs/resources/audio/t1.wav
+          C4: configs/resources/audio/t2.wav
     - 
           - random
           - type: mushra
@@ -39,7 +39,7 @@ pages:
             name: MUSHRA - Random 1
             content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
             enableLooping: true 
-            reference: configs/resources/audio/t2.wav
+            reference: configs/resources/audio/t1.wav
             createAnchor35: false
             createAnchor70: false
             stimuli:
