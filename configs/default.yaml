@@ -21,7 +21,7 @@ pages:
       createAnchor35: true
       createAnchor70: true
       stimuli:
-          C4: configs/resources/audio/t1.wav
+          C4: configs/resources/audio/t2.wav
     - 
           - random
           - type: mushra
