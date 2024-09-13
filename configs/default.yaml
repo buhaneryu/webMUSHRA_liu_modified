@@ -5,45 +5,126 @@ stopOnErrors: true
 showButtonPreviousPage: true
 remoteService: service/write.php
 
-
 pages:
     - type: generic
       id: first_page
       name: Welcome
-      content: Welcome to webMUSHRA!       
+      content: Welcome to webMUSHRA!   
+        测试须知：
+        最低质量的片段不必一定评分为“BAD”类别，但是最接近参考音频的一个或多个片段需要打100分
+        音频正在播放时，请先点击STOP再点击PLAY切换新的音频。
     - type: mushra
       id: trial1
-      name: MUSHRA
+      name: MUSHRA Test1
       content: This training shows how to use our user interface. Please perform the underlined instructions to proceed with the training session. Reminder: In a MUSHRA listening test you are asked to rate the Basic Audio Quality (BAQ) of each condition.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the reference and the condition.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/t2.wav
+      reference: configs/resources/audio/clean/1089_134686_000002_000001.wav
       createAnchor35: true
       createAnchor70: true
       stimuli:
-          C4: configs/resources/audio/t2.wav
-    - 
-          - random
-          - type: mushra
-            id: trial_random_1
-            name: MUSHRA - Random 2
-            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
-            enableLooping: true 
-            reference: configs/resources/audio/mono_ref.wav
-            createAnchor35: false
-            createAnchor70: false
-            stimuli:
-                C1: configs/resources/audio/mono_c1.wav
-          - type: mushra
-            id: trial_random_2
-            name: MUSHRA - Random 1
-            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
-            enableLooping: true 
-            reference: configs/resources/audio/t1.wav
-            createAnchor35: false
-            createAnchor70: false
-            stimuli:
-                C4: configs/resources/audio/t1.wav
+          C2: configs/resources/audio/encodec/1089_134686_000002_000001.wav
+          C3: configs/resources/audio/language/1089_134686_000002_000001.wav
+          C4: configs/resources/audio/funcodec/1089_134686_000002_000001.wav
+
+    - type: mushra
+      id: trial2
+      name: MUSHRA Test2
+      content: Please rate the Basic Audio Quality for the following set.
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/clean/1089_134686_000007_000004.wav
+      createAnchor35: true
+      createAnchor70: true
+      stimuli:
+          C2: configs/resources/audio/encodec/1089_134686_000007_000004.wav
+          C3: configs/resources/audio/language/1089_134686_000007_000004.wav
+          C4: configs/resources/audio/funcodec/1089_134686_000007_000004.wav
+
+    - type: mushra
+      id: trial3
+      name: MUSHRA Test3
+      content: Please rate the Basic Audio Quality for the following set.
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/clean/1089_134686_000009_000001.wav
+      createAnchor35: true
+      createAnchor70: true
+      stimuli:
+          C2: configs/resources/audio/encodec/1089_134686_000009_000001.wav
+          C3: configs/resources/audio/language/1089_134686_000009_000001.wav
+          C4: configs/resources/audio/funcodec/1089_134686_000009_000001.wav
+
+    - type: mushra
+      id: trial4
+      name: MUSHRA Test4
+      content: Please rate the Basic Audio Quality for the following set.
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/clean/1089_134686_000009_000005.wav
+      createAnchor35: true
+      createAnchor70: true
+      stimuli:
+          C2: configs/resources/audio/encodec/1089_134686_000009_000005.wav
+          C3: configs/resources/audio/language/1089_134686_000009_000005.wav
+          C4: configs/resources/audio/funcodec/1089_134686_000009_000005.wav
+
+    - type: mushra
+      id: trial5
+      name: MUSHRA Test5
+      content: Please rate the Basic Audio Quality for the following set.
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/clean/1089_134686_000009_000006.wav
+      createAnchor35: true
+      createAnchor70: true
+      stimuli:
+          C2: configs/resources/audio/encodec/1089_134686_000009_000006.wav
+          C3: configs/resources/audio/language/1089_134686_000009_000006.wav
+          C4: configs/resources/audio/funcodec/1089_134686_000009_000006.wav
+
+    - type: mushra
+      id: trial6
+      name: MUSHRA Test6
+      content: Please rate the Basic Audio Quality for the following set.
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/clean/1089_134686_000011_000003.wav
+      createAnchor35: true
+      createAnchor70: true
+      stimuli:
+          C2: configs/resources/audio/encodec/1089_134686_000011_000003.wav
+          C3: configs/resources/audio/language/1089_134686_000011_000003.wav
+          C4: configs/resources/audio/funcodec/1089_134686_000011_000003.wav
+
+    - type: mushra
+      id: trial7
+      name: MUSHRA Test7
+      content: Please rate the Basic Audio Quality for the following set.
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/clean/1089_134686_000012_000000.wav
+      createAnchor35: true
+      createAnchor70: true
+      stimuli:
+          C2: configs/resources/audio/encodec/1089_134686_000012_000000.wav
+          C3: configs/resources/audio/language/1089_134686_000012_000000.wav
+          C4: configs/resources/audio/funcodec/1089_134686_000012_000000.wav
+
+    - type: mushra
+      id: trial8
+      name: MUSHRA Test8
+      content: Please rate the Basic Audio Quality for the following set.
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/clean/1089_134686_000012_000003.wav
+      createAnchor35: true
+      createAnchor70: true
+      stimuli:
+          C2: configs/resources/audio/encodec/1089_134686_000012_000003.wav
+          C3: configs/resources/audio/language/1089_134686_000012_000003.wav
+          C4: configs/resources/audio/funcodec/1089_134686_000012_000003.wav
+
     - type: finish
       name: Thank you
       content: Thank you for attending!  
